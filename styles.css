@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     color: #fff;
-    background-color: #2e7d32;
+    background-color: #50AB50;
     line-height: 1.6;
 }
 a {
@@ -16,7 +16,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #1b5e20;
+    background-color: #8AAB85;
 }
 .navbar .logo {
     font-size: 1.5rem;
