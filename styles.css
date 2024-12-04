@@ -141,6 +141,18 @@ a {
     height: auto;
 }
 
+.certified .logos2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.certified .logos2 img {
+    width: 250px;
+    height: auto;
+}
+
+
+
 .cta {
     text-align: center;
     padding: 30px 20px;
