@@ -68,7 +68,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: left;
-    background-color: #2e7d32;
+    background-color: #50AB50;
 }
 .hero-content {
     display: flex;
@@ -92,19 +92,19 @@ a {
 .hero-text .learn-more {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #ffcc00;
-    border: none;
-    border-radius: 5px;
+    background-color: #9DC19D;
+    border: 1px, solid, black;;
+    border-radius: 15px;
     color: #000;
     cursor: pointer;
 }
 .hero-image {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 .hero-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 0;
 }
