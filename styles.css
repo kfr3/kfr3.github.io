@@ -110,6 +110,7 @@ a {
     height: auto;
     border-radius: 0;
 }
+
 /*
 .certified .logos {
     display: flex;
@@ -125,6 +126,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    background-color: #4B8940;
 }
 
 .certified h2 {
@@ -136,6 +138,7 @@ a {
 .certified img {
     height: auto; 
     max-width: 100%; 
+    margin-top: 10px;
 }
 
 .certified .ng-logo {
