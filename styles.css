@@ -138,12 +138,17 @@ a {
     gap: 30px;
 }
 
-.certified .logo img {
-    height: auto;
+.certified img {
+    height: auto; 
+    max-width: 100%; 
 }
 
-.certified .logo:nth-child(1) img { /* Target the first logo */
-    width: 250px;
+.certified .ng-logo {
+    width: 250px; 
+}
+
+.certified .history-logo {
+    width: 150px; 
 }
 
 .certified .logo:nth-child(2) img { /* Target the second logo */
