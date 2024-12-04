@@ -84,6 +84,7 @@ a {
 .hero-text h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #D0D0D0;
 }
 .hero-text p {
     font-size: 1.2rem;
@@ -97,6 +98,7 @@ a {
     border-radius: 15px;
     color: #000;
     cursor: pointer;
+    justify-content: center;
 }
 .hero-image {
     flex: 1;
@@ -107,4 +109,44 @@ a {
     max-width: 100%;
     height: auto;
     border-radius: 0;
+}
+
+.certified {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #4B8940;
+}
+.certified h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #D0D0D0;
+}
+
+.certified .logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.certified .logos img {
+    width: 150px;
+    height: auto;
+}
+
+.cta {
+    text-align: center;
+    padding: 30px 20px;
+}
+.cta h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #D0D0D0;
+}
+.cta .signup {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #A3AD45;
+    border: 1px, solid, black;
+    border-radius: 15px;
+    color: #000;
+    cursor: pointer;
 }
