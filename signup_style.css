@@ -35,7 +35,6 @@ a {
     display: flex;
     flex-direction: row;
     max-width: 1200px;
-    background-color: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
