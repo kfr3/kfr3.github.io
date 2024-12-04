@@ -32,7 +32,7 @@ a {
 }
 
 .hero {
-    text-align: center;
+    text-align: left;
     padding: 50px 20px;
 }
 .hero h1 {
@@ -46,15 +46,16 @@ a {
 .hero .learn-more {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #ffcc00;
-    border: none;
-    border-radius: 5px;
+    background-color: #9DC19D;
+    border: 1px, solid, black;
+    border-radius: 10px;
     color: #000;
     cursor: pointer;
 }
 .hero img {
     margin-top: 30px;
-    width: 80%;
-    max-width: 600px;
-    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    align-items: right;
+  }
 }
