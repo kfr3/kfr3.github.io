@@ -121,7 +121,7 @@ a {
     margin-bottom: 20px;
     color: #D0D0D0;
 }
-
+/*
 .certified .logos {
     display: flex;
     justify-content: center;
@@ -129,6 +129,15 @@ a {
 }
 .certified .logos img {
     width: 300px;
+    height: auto;
+}*/
+.certified .logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.certified .logos img {
+    width: 150px;
     height: auto;
 }
 
@@ -143,10 +152,13 @@ a {
 }
 
 .cta .picture {
-    flex: 1;
     display: flex;
-    justify-content: right;
-    width: 300px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cta .picture img {
+    width: 150px;
     height: auto;
 }
 
