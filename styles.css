@@ -131,25 +131,25 @@ a {
     width: 300px;
     height: auto;
 }*/
-.certified .logos {
+.certified {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 }
-.certified .logos img {
-    width: 150px;
+
+.certified .logo img {
     height: auto;
 }
 
-.certified .logos2 {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-.certified .logos2 img {
+.certified .logo:nth-child(1) img { /* Target the first logo */
     width: 250px;
-    height: auto;
 }
+
+.certified .logo:nth-child(2) img { /* Target the second logo */
+    width: 150px;
+}
+
 
 
 
