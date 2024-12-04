@@ -128,7 +128,7 @@ a {
     gap: 30px;
 }
 .certified .logos img {
-    width: 150px;
+    width: auto;
     height: auto;
 }
 
@@ -141,12 +141,20 @@ a {
     margin-bottom: 20px;
     color: #D0D0D0;
 }
+
+.cta .picture {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+
 .cta .signup {
-    padding: 10px 20px;
-    font-size: 1rem;
+    padding: 20px 40px;
+    font-size: 1.25rem;
     background-color: #A3AD45;
     border: 1px, solid, black;
     border-radius: 15px;
     color: #000;
     cursor: pointer;
+    font-family: Helvetica, sans-serif;
 }
