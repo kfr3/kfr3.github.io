@@ -128,7 +128,7 @@ a {
     gap: 30px;
 }
 .certified .logos img {
-    width: auto;
+    width: 300px;
     height: auto;
 }
 
@@ -146,6 +146,8 @@ a {
     flex: 1;
     display: flex;
     justify-content: right;
+    width: 300px;
+    height: auto;
 }
 
 .cta .signup {
