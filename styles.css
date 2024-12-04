@@ -110,17 +110,6 @@ a {
     height: auto;
     border-radius: 0;
 }
-
-.certified {
-    text-align: center;
-    padding: 30px 20px;
-    background-color: #4B8940;
-}
-.certified h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #D0D0D0;
-}
 /*
 .certified .logos {
     display: flex;
@@ -136,6 +125,12 @@ a {
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+.certified h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #D0D0D0;
 }
 
 .certified img {
