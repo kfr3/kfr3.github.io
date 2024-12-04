@@ -18,6 +18,7 @@ a {
     padding: 10px 20px;
     background-color: #8AAB85;
     position: fixed;
+    width: 100%
 }
 .navbar .logo {
     font-size: 1.5rem;
@@ -188,4 +189,10 @@ a {
     color: #000;
     cursor: pointer;
     font-family: Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    color: #D0D0D0;
+    justify-content: center;
 }
