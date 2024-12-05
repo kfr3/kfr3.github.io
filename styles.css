@@ -17,8 +17,9 @@ a {
     align-items: center;
     padding: 10px 20px;
     background-color: #8AAB85;
+    margin-top: 0;
     position: fixed;
-    width: 100%
+    width: 100%;
 }
 .navbar .logo {
     font-size: 1.5rem;
@@ -28,6 +29,7 @@ a {
     list-style: none;
     display: flex;
     gap: 15px;
+    margin-right: 50px;
 }
 .navbar ul li {
     font-size: 1rem;
@@ -106,6 +108,7 @@ a {
     flex: 1;
     display: flex;
     justify-content: right;
+    margin-right: 0;
 }
 .hero-image img {
     max-width: 100%;
