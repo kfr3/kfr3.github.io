@@ -17,9 +17,9 @@ a {
     align-items: center;
     padding: 10px 20px;
     background-color: #8AAB85;
+    margin-top: 0;
     position: fixed;
     width: 100%;
-    margin-top: 0;
 }
 .navbar .logo {
     font-size: 1.5rem;
@@ -29,6 +29,7 @@ a {
     list-style: none;
     display: flex;
     gap: 15px;
+    margin-right: 50px;
 }
 .navbar ul li {
     font-size: 1rem;
@@ -64,9 +65,9 @@ a {
 
 h2 {
     color: #D0D0D0;
-    float: center;
     font-size: 50px;
     font-family: Helvetica, sans-serif;
+    justify-content: center;
     /*margin-left: 100px;
     margin-top: 50px;*/
 }
@@ -75,9 +76,9 @@ p {
     /*margin-bottom: 100px;
     margin-top: 20px;*/
     color: #D0D0D0;
-    float: center;
     font-size: 30px;
     font-family: Helvetica, sans-serif;
+    justify-content: center;
 }
 
 form {
@@ -112,7 +113,7 @@ button {
     margin-bottom: 100px;
     margin-left: 250px;*/
     width: 20%;
-    float: center;
+    justify-content: center;
 }
 
 button:hover {
