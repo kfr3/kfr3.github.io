@@ -4,7 +4,6 @@ body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     color: #fff;
-    background-color: #50AB50;
     line-height: 1.6;
     background-image: url(images/ufo_background.jpg);
 }
@@ -52,37 +51,6 @@ a {
 .navbar ul li {
     font-size: 1rem;
 }
-/*
-.hero {
-    text-align: left;
-    padding: 50px 20px;
-}
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    float: left;
-}
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    float: left;
-}
-.hero .learn-more {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #9DC19D;
-    border: 1px, solid, black;
-    border-radius: 10px;
-    color: #000;
-    cursor: pointer;
-    float: left;
-}
-.hero img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 0px;
-    float: right;
-  }*/
 
 .hero {
     padding: 50px 20px;
@@ -90,13 +58,12 @@ a {
     justify-content: center;
     align-items: center;
     text-align: left;
-    background-color: #50AB50;
 }
 .hero-content {
     display: flex;
     align-items: center;
     gap: 30px; /* Space between text and image */
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     flex-wrap: wrap; /* Ensures it adapts to smaller screens */
 }

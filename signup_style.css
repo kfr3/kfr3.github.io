@@ -5,8 +5,9 @@ body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     color: #fff;
-    background-color: #50AB50;
+    /*background-color: #50AB50;*/
     line-height: 1.6;
+    background-image: url(images/ufo_background.jpg);
 }
 a {
     text-decoration: none;
@@ -87,7 +88,7 @@ a {
     height: 100%;
     object-fit: cover;
     display: block;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .form-section {
@@ -96,7 +97,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:#50AB50;
 }
 
 h2 {
@@ -107,6 +107,13 @@ h2 {
     float: center;
     /*margin-left: 100px;
     margin-top: 50px;*/
+}
+
+h4 {
+    color: #D0D0D0;
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
 }
 
 p {
