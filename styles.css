@@ -115,42 +115,34 @@ a {
     padding: 10px 20px;
     font-size: 1rem;
     background-color: #9DC19D;
-    border: 1px, solid, black;
+    /*border: 1px, solid, black;*/
     border-radius: 15px;
     color: #000;
     cursor: pointer;
     justify-content: center;
+    float: center;
 }
 .hero-image {
     flex: 1;
     display: flex;
     justify-content: right;
     margin-right: 0;
+    right: 0;
 }
 .hero-image img {
     max-width: 100%;
     height: auto;
     border-radius: 0;
-    margin-right: 0px;
-    right: 0;
+    float: right;
 }
 
-/*
-.certified .logos {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-.certified .logos img {
-    width: 300px;
-    height: auto;
-}*/
 .certified {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     background-color: #4B8940;
+    flex-direction: column;
 }
 
 .certified h2 {

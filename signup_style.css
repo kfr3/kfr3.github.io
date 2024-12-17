@@ -12,6 +12,20 @@ a {
     color: #fff;
 }
 
+.dm-sans-title {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto; /* Optional: Advanced font feature */
+    font-weight: 800; /* Bold weight for titles */
+    font-style: normal; /* Default: can be 'italic' if needed */
+}
+
+.dm-sans-text {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto; /* Optional: Advanced font feature */
+    font-weight: 200; /* Bold weight for titles */
+    font-style: normal; /* Default: can be 'italic' if needed */
+}
+
 /* Navbar */
 .navbar {
     display: flex;
