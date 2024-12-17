@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
@@ -5,9 +7,24 @@ body {
     background-color: #50AB50;
     line-height: 1.6;
 }
+
 a {
     text-decoration: none;
     color: #fff;
+}
+
+.dm-sans-title {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto; /* Optional: Advanced font feature */
+    font-weight: 400; /* Bold weight for titles */
+    font-style: normal; /* Default: can be 'italic' if needed */
+}
+
+.dm-sans-text {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto; /* Optional: Advanced font feature */
+    font-weight: 200; /* Bold weight for titles */
+    font-style: normal; /* Default: can be 'italic' if needed */
 }
 
 /* Navbar */
@@ -98,7 +115,7 @@ a {
     padding: 10px 20px;
     font-size: 1rem;
     background-color: #9DC19D;
-    border: 1px, solid, black;;
+    border: 1px, solid, black;
     border-radius: 15px;
     color: #000;
     cursor: pointer;
@@ -158,9 +175,6 @@ a {
 .certified .logo:nth-child(2) img { /* Target the second logo */
     width: 150px;
 }
-
-
-
 
 .cta {
     text-align: center;

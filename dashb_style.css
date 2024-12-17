@@ -17,7 +17,7 @@ a {
     align-items: center;
     padding: 10px 20px;
     background-color: #8AAB85;
-    margin-top: 0;
+    top: 0;
     position: fixed;
     width: 100%;
 }
@@ -39,7 +39,7 @@ h2 {
     color: #D0D0D0;
     font-size: 50px;
     margin-bottom: 20px;
-    text-align: left; /* Align heading to the left */
+    text-align: center; /* Align heading to the left */
 }
 
 label {
@@ -52,6 +52,7 @@ label {
 .container {
     display: grid;
     margin: 20px;
+    flex-direction: column;
 }
 
 /* Input fields */
@@ -110,6 +111,7 @@ button .hover {
 .dob-container {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .dob-container input {
