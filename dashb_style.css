@@ -65,6 +65,7 @@ input {
     background-color: #8AAB85;
     color: #000; 
     text-align: left; /* Align input text to the left */
+    flex-direction: column;
 }
 
 input::placeholder {
@@ -111,7 +112,6 @@ button .hover {
 .dob-container {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
 }
 
 .dob-container input {
