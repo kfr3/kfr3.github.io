@@ -71,7 +71,8 @@ a {
     align-items: center;
     gap: 30px; /* Space between text and image */
     max-width: 100%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    padding-top: 20px;
     flex-wrap: wrap; /* Ensures it adapts to smaller screens */
 }
 .hero-text {
@@ -118,7 +119,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     background-color: #4B8940;
     flex-direction: column;
 }
@@ -131,7 +132,6 @@ a {
 .certified img {
     height: auto; 
     max-width: 100%; 
-    margin-right: 40px;
 }
 
 .certified-img-spacing {
@@ -141,7 +141,8 @@ a {
 
 .certified .ng-logo {
     width: 250px; 
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    margin-right: 40px;
 }
 
 .certified .history-logo {
@@ -158,7 +159,7 @@ a {
 }
 .cta h2 {
     font-size: 1.8rem;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: #D0D0D0;
 }
 /*
@@ -182,6 +183,7 @@ a {
     color: #000;
     cursor: pointer;
     font-family: Helvetica, sans-serif;
+    margin-bottom: 40px;
 }
 
 h1{
