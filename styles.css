@@ -6,6 +6,7 @@ body {
     color: #fff;
     background-color: #50AB50;
     line-height: 1.6;
+    background-image: url(images/ufo_background.jpg);
 }
 
 a {
@@ -128,7 +129,6 @@ a {
     justify-content: right;
     margin-right: 0;
     right: 0;
-    position: absolute;
 } 
 
 .hero-image img {
