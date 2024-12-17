@@ -76,6 +76,7 @@ a {
 }
 .hero-text {
     flex: 1;
+    margin-left: 50px;
 }
 .hero-text h1 {
     font-size: 2.5rem;
@@ -87,8 +88,9 @@ a {
     margin-bottom: 20px;
 }
 .hero-text .learn-more {
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-size: 1rem;
+    font-weight: bold;
     background-color: #9DC19D;
     border: none;
     border-radius: 15px;
@@ -107,7 +109,7 @@ a {
 
 .hero-image img {
     max-width: 100%;
-    height: auto;
+    height: 90%;
     border-radius: 0;
     float: right;
 }
@@ -129,7 +131,6 @@ a {
 .certified img {
     height: auto; 
     max-width: 100%; 
-    margin-top: 10px;
     margin-right: 40px;
 }
 
@@ -140,6 +141,7 @@ a {
 
 .certified .ng-logo {
     width: 250px; 
+    margin-bottom: 15px;
 }
 
 .certified .history-logo {
@@ -152,14 +154,14 @@ a {
 
 .cta {
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px;
 }
 .cta h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
     color: #D0D0D0;
 }
-
+/*
 .cta .picture {
     display: flex;
     justify-content: center;
@@ -170,9 +172,9 @@ a {
     width: 150px;
     height: auto;
 }
-
+*/
 .cta .signup {
-    padding: 20px 40px;
+    padding: 15px 30px;
     font-size: 1.25rem;
     background-color: #A3AD45;
     border: 1px, solid, black;

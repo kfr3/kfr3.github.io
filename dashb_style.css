@@ -80,7 +80,7 @@ form{
 
 /* Input fields */
 input {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 10px;
     font-size: 18px;
     border: 1px solid #ccc;
@@ -124,7 +124,7 @@ button .hover {
     background-color: #a94442;
     color: white;
     width: 50%;
-    text-align: left; /* Align delete button text */
+    text-align: center; /* Align delete button text */
 }
 
 .delete-btn:hover {
