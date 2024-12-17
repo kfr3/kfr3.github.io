@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
@@ -8,6 +10,13 @@ body {
 a {
     text-decoration: none;
     color: #fff;
+}
+
+.dm-sans-title {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto; /* Optional: Advanced font feature */
+    font-weight: 800; /* Bold weight for titles */
+    font-style: normal; /* Default: can be 'italic' if needed */
 }
 
 /* Navbar */
@@ -38,6 +47,7 @@ a {
 h2 {
     color: #D0D0D0;
     font-size: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center; /* Align heading to the left */
 }
