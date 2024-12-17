@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,900;1,9..40,900&display=swap');
 
 body {
     margin: 0;
@@ -17,6 +18,13 @@ a {
     font-optical-sizing: auto; /* Optional: Advanced font feature */
     font-weight: 800; /* Bold weight for titles */
     font-style: normal; /* Default: can be 'italic' if needed */
+}
+
+.comfortaa-text {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /* Navbar */
@@ -60,7 +68,6 @@ h2 {
 form{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
 }
 
 .container label {
