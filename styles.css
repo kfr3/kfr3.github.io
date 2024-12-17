@@ -192,7 +192,7 @@ h1{
     justify-content: center;
 }
 .article {
-    padding: 20px 40px;
+    padding: 40px;
     background-color: #4B8940;
     margin: 20px auto;
     border-radius: 10px;
@@ -211,6 +211,7 @@ h1{
     font-size: 1rem;
     line-height: 1.6;
     color: #E6E6E6;
+    padding: 40px; 
 }
 
 .article-content p {
